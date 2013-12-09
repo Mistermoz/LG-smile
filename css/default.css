@@ -46,3 +46,215 @@ footer {
   text-indent: -9999px;
   width: 791px;
 }
+section.pages.home {
+  height: 1%;
+  overflow: hidden;
+  padding: 20px 25px 15px 5px;
+}
+section.pages.home box {
+  width: 322px;
+}
+section.pages.home box:first-child {
+  float: left;
+}
+section.pages.home box:first-child div.description {
+  margin-bottom: 20px;
+}
+section.pages.home box:first-child div.description a {
+  display: block;
+  transition: opacity 250ms;
+  text-decoration: none;
+}
+section.pages.home box:first-child div.description a.create {
+  background: #aa2455 url(/img/pages-home-create-bg.png) 10px center no-repeat;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 300;
+  height: 31px;
+  line-height: 29px;
+  position: relative;
+  text-align: center;
+  text-indent: 10px;
+  width: 180px;
+}
+section.pages.home box:first-child div.description a.create span {
+  background: #3b5998;
+  border-left: 2px solid #fff;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  float: right;
+  line-height: 31px;
+  text-align: center;
+  text-indent: 0px;
+  position: absolute;
+  right: -17px;
+  width: 30px;
+}
+section.pages.home box:first-child div.description a:hover {
+  opacity: 0.7;
+}
+section.pages.home box:first-child div.description h1 {
+  color: #aa2455;
+  font-size: 29px;
+  margin-bottom: 15px;
+}
+section.pages.home box:first-child div.description p {
+  color: #777676;
+  font-size: 10px;
+  line-height: 16px;
+  margin-bottom: 15px;
+}
+section.pages.home box:first-child div.description p strong {
+  color: #aa2455;
+}
+section.pages.home box:first-child div.counts {
+  background: #aa2455;
+  color: #fff;
+  height: 1%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+section.pages.home box:first-child div.counts p {
+  display: block;
+  font-size: 9px;
+  float: right;
+  padding-top: 8px;
+  padding-right: 10px;
+  text-align: left;
+  width: 20px;
+}
+section.pages.home box:first-child div.counts ul {
+  font-family: 'novecento_sans_widelight';
+  font-size: 33px;
+  float: left;
+  padding: 2px 0px;
+}
+section.pages.home box:first-child div.counts ul li {
+  border-right: 1px solid #bb5178;
+  float: left;
+  line-height: 24px;
+  padding: 2px 2px;
+}
+section.pages.home box:first-child div.counts ul li:last-child {
+  border: none;
+}
+section.pages.home box:first-child div.counts div.total {
+  border: 1px solid #bb5178;
+  float: left;
+  height: 33px;
+  padding: 0px 5px;
+  width: 163px;
+}
+section.pages.home box:first-child div.counts div.chile {
+  border: 1px solid #bb5178;
+  float: right;
+  height: 33px;
+  padding: 0px 5px;
+  width: 98px;
+}
+section.pages.home box:first-child div.counts div.chile p {
+  padding-top: 3px;
+}
+section.pages.home box:first-child div.socials a {
+  border: 1px solid #eed2dc;
+  color: #777676;
+  display: inline-block;
+  font-size: 9px;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  text-indent: 5px;
+  width: 48px;
+}
+section.pages.home box:first-child div.socials a span {
+  color: #aa2455;
+}
+section.pages.home box:first-child div.socials a.hashtag {
+  border: none;
+  color: #aa2455;
+  font-size: 13px;
+  margin-right: 10px;
+  width: auto;
+}
+section.pages.home box:last-child {
+  float: right;
+  width: 323px;
+}
+section.pages.home box:last-child div.video {
+  padding-top: 20px;
+}
+section.pages.home box:last-child div.video div.content {
+  background: url(/img/pages-home-video-content.png) 0 0 no-repeat;
+  padding: 6px 0px;
+}
+section.pages.home box:last-child div.video div.content a {
+  clear: both;
+  color: #fff;
+  display: block;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+section.pages.home box:last-child div.video div.content a p:nth-of-type(1) {
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+section.pages.home box:last-child div.video div.content a p:nth-of-type(2) {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+section.pages.home box:last-child div.video div.content a span {
+  background: #aa2455;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 25px;
+  height: 56px;
+  line-height: 56px;
+  text-indent: 5px;
+  transition: opacity 250px;
+  width: 56px;
+}
+section.pages.home box:last-child div.video div.content a:hover span {
+  opacity: 0.7;
+}
+section.pages.home box:last-child div.video div.content h3 {
+  background: #6b6c6e;
+  border-radius: 5px 5px 0px 0px;
+  color: #fff;
+  font-size: 12px;
+  float: right;
+  height: 28px;
+  line-height: 28px;
+  padding: 0px 10px;
+  text-align: center;
+}
+section.pages.home box:last-child div.buttons a {
+  display: inline-block;
+  border-radius: 5px;
+  height: 34px;
+  line-height: 34px;
+  text-decoration: none;
+  text-align: center;
+  transition: opacity 250ms;
+}
+section.pages.home box:last-child div.buttons a.gallery {
+  background: #dedede url(/img/pages-home-buttons-gallery.png) 10px center no-repeat;
+  border-radius: 5px;
+  color: #aa2455;
+  margin-right: 10px;
+  padding: 0px 10px;
+  text-indent: 25px;
+}
+section.pages.home box:last-child div.buttons a.about {
+  background: #aa2455;
+  color: #fff;
+  height: 33px;
+  line-height: 33px;
+  padding: 0px 15px;
+}
+section.pages.home box:last-child div.buttons a:hover {
+  opacity: 0.7;
+}
