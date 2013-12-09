@@ -540,4 +540,140 @@ section.pages {
 			}
 		}
 	}
+
+	&.gallery{
+		padding: 25px 24px;
+
+		div.top {
+			height: 1%;
+			margin-bottom: 15px;
+			overflow: hidden;
+
+			a {
+				color: #fff;
+				text-align: center;
+				text-decoration: none;
+
+				&.home {
+					background: @color;
+					border-radius: 5px;
+					float: right;
+					padding: 5px 10px;
+				}
+			}
+
+			h2 {
+				color: @color;
+				font-size: 25px;
+				font-weight: 300;
+				float: left;
+			}
+		}
+
+		div.items {
+			clear: both;
+			height: 1%;
+			overflow: hidden;
+			position: relative;
+
+			div.item {
+				float: left;
+				position: relative;
+				overflow: hidden;
+
+				a {
+
+					img {
+						height: 249px;
+						width: 247px;
+					}
+
+					p {
+						background: url(/img/pages-lightbox-bg.png) 0 0 repeat;
+						bottom: 0px;
+						color: #fff;
+						padding: 10px 0px;
+						position: absolute;
+						text-align: center;
+						transition: background 250ms;
+						width: 100%;
+						z-index: 2;
+					}
+
+					span {
+						background: url(/img/pages-gallery-item-span.png) 0 0 repeat;
+						color: #fff;
+						display: block;
+						font-size: 30px;
+						height: 100%;
+						left: 100%;
+						padding-top: 37%;
+						position: absolute;
+						text-align: center;
+						transition: left 250ms;
+						top: 0px;
+						width: 100%;
+						z-index: 1;
+					}
+
+					&:hover{
+						p {
+							background: none;
+						}
+
+						span {
+							left:0px;
+						}
+					}
+				}
+
+				&:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6), &:nth-of-type(8), &:nth-of-type(9), &:nth-of-type(10), &:nth-of-type(11), &:nth-of-type(12) {
+					height: 124px;
+					width: 124px;
+
+					img {
+						height: 125px;
+						margin: 0px;
+						width: 124px;
+					}
+				}
+
+				&:nth-of-type(6) {
+					height: 126px;
+
+					img {
+						height: 126px;
+					}
+				}
+
+				&:nth-of-type(7){
+					float: left;
+					height: 248px;
+
+					img {
+						height: 248px;
+					}
+				}
+
+				&:nth-of-type(10), &:nth-of-type(11), &:nth-of-type(12) {
+					bottom: 0px;
+					position: absolute;
+					height: 124px;
+
+					img {
+						height: 127px;
+						width: 124px;
+					}
+				}
+
+				&:nth-of-type(11) {
+					left: 124px;
+				}
+
+				&:nth-of-type(12) {
+					left: 248px;
+				}
+			}
+		}
+	}
 }

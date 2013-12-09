@@ -450,3 +450,134 @@ section.pages.home div#techo.enabled {
   opacity: 1;
   z-index: 1;
 }
+section.pages.gallery {
+  padding: 25px 24px;
+}
+section.pages.gallery div.top {
+  height: 1%;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+section.pages.gallery div.top a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+section.pages.gallery div.top a.home {
+  background: #aa2455;
+  border-radius: 5px;
+  float: right;
+  padding: 5px 10px;
+}
+section.pages.gallery div.top h2 {
+  color: #aa2455;
+  font-size: 25px;
+  font-weight: 300;
+  float: left;
+}
+section.pages.gallery div.items {
+  clear: both;
+  height: 1%;
+  overflow: hidden;
+  position: relative;
+}
+section.pages.gallery div.items div.item {
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+section.pages.gallery div.items div.item a img {
+  height: 249px;
+  width: 247px;
+}
+section.pages.gallery div.items div.item a p {
+  background: url(/img/pages-lightbox-bg.png) 0 0 repeat;
+  bottom: 0px;
+  color: #fff;
+  padding: 10px 0px;
+  position: absolute;
+  text-align: center;
+  transition: background 250ms;
+  width: 100%;
+  z-index: 2;
+}
+section.pages.gallery div.items div.item a span {
+  background: url(/img/pages-gallery-item-span.png) 0 0 repeat;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  height: 100%;
+  left: 100%;
+  padding-top: 37%;
+  position: absolute;
+  text-align: center;
+  transition: left 250ms;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+section.pages.gallery div.items div.item a:hover p {
+  background: none;
+}
+section.pages.gallery div.items div.item a:hover span {
+  left: 0px;
+}
+section.pages.gallery div.items div.item:nth-of-type(2),
+section.pages.gallery div.items div.item:nth-of-type(3),
+section.pages.gallery div.items div.item:nth-of-type(4),
+section.pages.gallery div.items div.item:nth-of-type(5),
+section.pages.gallery div.items div.item:nth-of-type(6),
+section.pages.gallery div.items div.item:nth-of-type(8),
+section.pages.gallery div.items div.item:nth-of-type(9),
+section.pages.gallery div.items div.item:nth-of-type(10),
+section.pages.gallery div.items div.item:nth-of-type(11),
+section.pages.gallery div.items div.item:nth-of-type(12) {
+  height: 124px;
+  width: 124px;
+}
+section.pages.gallery div.items div.item:nth-of-type(2) img,
+section.pages.gallery div.items div.item:nth-of-type(3) img,
+section.pages.gallery div.items div.item:nth-of-type(4) img,
+section.pages.gallery div.items div.item:nth-of-type(5) img,
+section.pages.gallery div.items div.item:nth-of-type(6) img,
+section.pages.gallery div.items div.item:nth-of-type(8) img,
+section.pages.gallery div.items div.item:nth-of-type(9) img,
+section.pages.gallery div.items div.item:nth-of-type(10) img,
+section.pages.gallery div.items div.item:nth-of-type(11) img,
+section.pages.gallery div.items div.item:nth-of-type(12) img {
+  height: 125px;
+  margin: 0px;
+  width: 124px;
+}
+section.pages.gallery div.items div.item:nth-of-type(6) {
+  height: 126px;
+}
+section.pages.gallery div.items div.item:nth-of-type(6) img {
+  height: 126px;
+}
+section.pages.gallery div.items div.item:nth-of-type(7) {
+  float: left;
+  height: 248px;
+}
+section.pages.gallery div.items div.item:nth-of-type(7) img {
+  height: 248px;
+}
+section.pages.gallery div.items div.item:nth-of-type(10),
+section.pages.gallery div.items div.item:nth-of-type(11),
+section.pages.gallery div.items div.item:nth-of-type(12) {
+  bottom: 0px;
+  position: absolute;
+  height: 124px;
+}
+section.pages.gallery div.items div.item:nth-of-type(10) img,
+section.pages.gallery div.items div.item:nth-of-type(11) img,
+section.pages.gallery div.items div.item:nth-of-type(12) img {
+  height: 127px;
+  width: 124px;
+}
+section.pages.gallery div.items div.item:nth-of-type(11) {
+  left: 124px;
+}
+section.pages.gallery div.items div.item:nth-of-type(12) {
+  left: 248px;
+}
