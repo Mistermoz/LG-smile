@@ -582,13 +582,15 @@ section.pages.gallery div.items div.item:nth-of-type(11) {
 section.pages.gallery div.items div.item:nth-of-type(12) {
   left: 248px;
 }
-section.pages.create {
+section.pages.create,
+section.pages.success {
   background: url(../img/pages-create-bg.png) 0 0 no-repeat;
   height: 1%;
   overflow: hidden;
   position: relative;
 }
-section.pages.create h1 {
+section.pages.create h1,
+section.pages.success h1 {
   background: url(../img/pages-create-h1.png) 0 0 no-repeat;
   left: 10px;
   height: 134px;
@@ -598,7 +600,8 @@ section.pages.create h1 {
   width: 169px;
   z-index: 2;
 }
-section.pages.create > div.thumb {
+section.pages.create > div.thumb,
+section.pages.success > div.thumb {
   background: url(../img/pages-create-thumb-bg.png) right top no-repeat;
   height: 355px;
   float: left;
@@ -606,20 +609,24 @@ section.pages.create > div.thumb {
   width: 403px;
   z-index: 1;
 }
-section.pages.create > div.content {
+section.pages.create > div.content,
+section.pages.success > div.content {
   float: left;
   padding: 65px 45px 40px 20px;
   width: 323px;
 }
-section.pages.create > div.content div.description {
+section.pages.create > div.content div.description,
+section.pages.success > div.content div.description {
   margin-bottom: 20px;
 }
-section.pages.create > div.content div.description h2 {
+section.pages.create > div.content div.description h2,
+section.pages.success > div.content div.description h2 {
   color: #aa2455;
   font-size: 20px;
   margin-bottom: 20px;
 }
-section.pages.create > div.content div.description h2 span {
+section.pages.create > div.content div.description h2 span,
+section.pages.success > div.content div.description h2 span {
   background: #aa2455;
   border-radius: 50%;
   color: #fff;
@@ -631,41 +638,73 @@ section.pages.create > div.content div.description h2 span {
   text-align: center;
   width: 34px;
 }
-section.pages.create > div.content div.description p {
+section.pages.create > div.content div.description p,
+section.pages.success > div.content div.description p {
   color: #777777;
   font-size: 11px;
   line-height: 15px;
 }
-section.pages.create > div.content div.choice a {
+section.pages.create > div.content div.choice a,
+section.pages.success > div.content div.choice a {
   display: inline-block;
+  float: left;
   height: 86px;
   text-indent: -9999px;
   transition: opacity 250ms;
   width: 87px;
 }
-section.pages.create > div.content div.choice a.webcamera {
+section.pages.create > div.content div.choice a.webcamera,
+section.pages.success > div.content div.choice a.webcamera {
   background: url(../img/pages-create-choice-webcamera.png) 0 0 no-repeat;
   margin-right: 10px;
 }
-section.pages.create > div.content div.choice a.pc {
-  background: url(../img/pages-create-choice-pc.png) 0 0 no-repeat;
-}
-section.pages.create > div.content div.choice a:hover {
+section.pages.create > div.content div.choice a:hover,
+section.pages.success > div.content div.choice a:hover {
   opacity: 0.7;
 }
-section.pages.create > div.content div.choice h3 {
+section.pages.create > div.content div.choice h3,
+section.pages.success > div.content div.choice h3 {
   color: #4e4e4e;
   font-size: 20px;
   margin-bottom: 15px;
 }
-section.pages.create div#take-photo {
+section.pages.create > div.content div.choice div.pc,
+section.pages.success > div.content div.choice div.pc {
+  background: url(../img/pages-create-choice-pc.png) 0 0 no-repeat;
+  float: left;
+  height: 86px;
+  position: relative;
+  overflow: hidden;
+  tranisition: opacity 250ms;
+  width: 87px;
+}
+section.pages.create > div.content div.choice div.pc input.upload,
+section.pages.success > div.content div.choice div.pc input.upload {
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  height: 86px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 87px;
+}
+section.pages.create > div.content div.choice div.pc:hover,
+section.pages.success > div.content div.choice div.pc:hover {
+  opacity: 0.7;
+}
+section.pages.create div#take-photo,
+section.pages.success div#take-photo {
   padding: 35px 153px;
   opacity: 0;
   transition: opacity 300ms;
   width: 100%;
   z-index: -1;
 }
-section.pages.create div#take-photo div.content {
+section.pages.create div#take-photo div.content,
+section.pages.success div#take-photo div.content {
   border: 8px solid #232323;
   border-radius: 5px;
   background: #fff;
@@ -674,11 +713,13 @@ section.pages.create div#take-photo div.content {
   position: relative;
   width: 415px;
 }
-section.pages.create div#take-photo div.content div.how {
+section.pages.create div#take-photo div.content div.how,
+section.pages.success div#take-photo div.content div.how {
   float: left;
   width: 161px;
 }
-section.pages.create div#take-photo div.content div.how a {
+section.pages.create div#take-photo div.content div.how a,
+section.pages.success div#take-photo div.content div.how a {
   background: #aa2455;
   border-radius: 5px;
   color: #fff;
@@ -687,15 +728,18 @@ section.pages.create div#take-photo div.content div.how a {
   transition: opacity 250ms;
   padding: 5px 10px;
 }
-section.pages.create div#take-photo div.content div.how a:hover {
+section.pages.create div#take-photo div.content div.how a:hover,
+section.pages.success div#take-photo div.content div.how a:hover {
   opacity: 0.7;
 }
-section.pages.create div#take-photo div.content div.how h3 {
+section.pages.create div#take-photo div.content div.how h3,
+section.pages.success div#take-photo div.content div.how h3 {
   color: #c61f56;
   font-size: 17px;
   margin-bottom: 50px;
 }
-section.pages.create div#take-photo div.content div.how h3 span {
+section.pages.create div#take-photo div.content div.how h3 span,
+section.pages.success div#take-photo div.content div.how h3 span {
   background: url(../img/pages-create-take-photo-h2-span.png) 0 0 no-repeat;
   display: inline-block;
   float: left;
@@ -704,21 +748,80 @@ section.pages.create div#take-photo div.content div.how h3 span {
   vertical-align: bottom;
   width: 28px;
 }
-section.pages.create div#take-photo div.content div.how h3 strong {
+section.pages.create div#take-photo div.content div.how h3 strong,
+section.pages.success div#take-photo div.content div.how h3 strong {
   vertical-align: top;
 }
-section.pages.create div#take-photo div.content div.how p {
+section.pages.create div#take-photo div.content div.how p,
+section.pages.success div#take-photo div.content div.how p {
   color: #767676;
   font-size: 11px;
   margin-bottom: 60px;
 }
-section.pages.create div#take-photo div.content div.thumb {
+section.pages.create div#take-photo div.content div.thumb,
+section.pages.success div#take-photo div.content div.thumb {
   background: url(../img/pages-create-take-photo-thumb.png) 0 0 no-repeat;
   float: right;
   height: 196px;
   width: 196px;
 }
-section.pages.create div#take-photo.enabled {
+section.pages.create div#take-photo.enabled,
+section.pages.success div#take-photo.enabled {
   opacity: 1;
   z-index: 10;
+}
+section.pages.create div#pc-photo,
+section.pages.success div#pc-photo {
+  height: 357px;
+  opacity: 0;
+  transition: opacity 300ms;
+  width: 100%;
+  z-index: -1;
+}
+section.pages.create div#pc-photo.enabled,
+section.pages.success div#pc-photo.enabled {
+  opacity: 1;
+  z-index: 10;
+}
+section.pages.success div.content div.show div.thumb {
+  float: left;
+  margin-right: 10px;
+}
+section.pages.success div.content div.show div.thumb img {
+  border: 5px solid #fff;
+  width: 110px;
+}
+section.pages.success div.content div.show div.buttons {
+  float: left;
+}
+section.pages.success div.content div.show div.buttons a {
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 250ms;
+}
+section.pages.success div.content div.show div.buttons a.again {
+  background: #a7a7a7;
+  margin-bottom: 10px;
+}
+section.pages.success div.content div.show div.buttons a.accept {
+  background: #aa2455;
+}
+section.pages.success div.content div.show div.buttons a span {
+  color: #fff;
+  margin-right: 5px;
+}
+section.pages.success div.content div.show div.buttons a:nth-of-type(1) span {
+  font-weight: 700;
+}
+section.pages.success div.content div.show div.buttons a:hover {
+  opacity: 0.7;
+}
+section.pages.success div.content div.show div.buttons h4 {
+  color: #aa2455;
+  font-size: 15px;
+  margin-bottom: 40px;
 }

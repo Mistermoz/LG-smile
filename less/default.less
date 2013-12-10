@@ -678,7 +678,7 @@ section.pages {
 		}
 	}
 
-	&.create {
+	&.create, &.success {
 		background: url(../img/pages-create-bg.png) 0 0 no-repeat;
 		height: 1%;
 		overflow: hidden;
@@ -741,6 +741,7 @@ section.pages {
 			div.choice {
 				a {
 					display: inline-block;
+					float: left;
 					height: 86px;
 					text-indent: -9999px;
 					transition: opacity 250ms;
@@ -749,10 +750,6 @@ section.pages {
 					&.webcamera {
 						background: url(../img/pages-create-choice-webcamera.png) 0 0 no-repeat;
 						margin-right: 10px;
-					}
-
-					&.pc {
-						background: url(../img/pages-create-choice-pc.png) 0 0 no-repeat;
 					}
 
 					&:hover {
@@ -764,6 +761,33 @@ section.pages {
 					color: #4e4e4e;
 					font-size: 20px;
 					margin-bottom: 15px;
+				}
+
+				div.pc {
+					background: url(../img/pages-create-choice-pc.png) 0 0 no-repeat;
+					float: left;
+					height: 86px;
+					position: relative;
+					overflow: hidden;
+					tranisition: opacity 250ms;
+					width: 87px;
+
+					input.upload {
+						cursor: pointer;
+						filter: alpha(opacity=0);
+						height: 86px;
+						margin: 0;
+						opacity: 0;
+						padding: 0;
+						position: absolute;
+						right: 0;
+						top: 0;
+						width: 87px;
+					}
+
+					&:hover {
+						opacity: 0.7;
+					}
 				}
 			}
 		}
@@ -841,6 +865,79 @@ section.pages {
 			&.enabled {
 				opacity: 1;
 				z-index: 10;
+			}
+		}
+
+		div#pc-photo {
+			height: 357px;
+			opacity: 0;
+			transition: opacity 300ms;
+			width: 100%;
+			z-index: -1;
+
+			&.enabled {
+				opacity: 1;
+				z-index: 10;
+			}
+		}
+	}
+
+	&.success {
+		div.content {
+			div.show {
+				div.thumb {
+					float: left;
+					margin-right: 10px;
+
+					img {
+						border: 5px solid #fff;
+						width: 110px;
+					}
+				}
+
+				div.buttons {
+					float: left;
+
+					a {
+						border-radius: 5px;
+						color: #fff;
+						display: block;
+						padding: 5px 15px;
+						text-align: center;
+						text-decoration: none;
+						transition: opacity 250ms;
+
+						&.again {
+							background: #a7a7a7;
+							margin-bottom: 10px;
+						}
+
+						&.accept {
+							background: @color;
+						}
+
+						span {
+							color: #fff;
+							margin-right: 5px;
+						}
+
+						&:nth-of-type(1) {
+							span {
+								font-weight: 700;
+							}
+						}
+
+						&:hover {
+							opacity: 0.7;
+						}
+					}
+
+					h4 {
+						color: @color;
+						font-size: 15px;
+						margin-bottom: 40px;
+					}
+				}
 			}
 		}
 	}

@@ -1,3 +1,6 @@
+function lightbox() {
+			$('#pc-photo').addClass('enabled');
+	}
 $(function () {
 	$('a[href="#video"]').click(function (e) {
 			$('#video').addClass('enabled');

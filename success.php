@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lg - Smile</title>
+  <title>Lg - Smile - Success</title>
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/default.css"/>
   <link rel="stylesheet" href="css/font-awesome.css"/>
@@ -24,52 +24,31 @@
         <h2>Un techo para mi</h2>
       </header>
 
-      <section class="pages create">
+      <section class="pages success">
         <h1>Creating and smile</h1>
 
         <div class="thumb">Smile</div>
 
         <div class="content">
           <div class="description">
-            <h2><span>1</span> Create your smile</h2>
+            <h2><span>2</span> Create your smile</h2>
 
             <p>
               A nice smile with a complicit wink. A contagious smile makes others want to smaile. Take a pic with your best LG Smile and pread it to help children in need from your country.
             </p>
           </div>
 
-          <div class="choice">
-            <h3>Add Photo</h3>
+          <div class="show">
+            <div class="thumb"><img src="img/pages-create-take-photo-thumb.png" alt=""></div>
 
-            <a href="/#/create/webcamera" class="webcamera">Web camera</a>
+             <div class="buttons">
+               <h4>Nice Smile!</h4>
 
-            <div class="pc">
-              <input type="file" class="upload" id="uploadBtn" onclick="lightbox();" oncancel="lightbox_off();"/>
-            </div>
+               <a href="create.php" class="again"><span>X</span> Do it again</a>
+
+               <a href="choose.php" class="accept"><span class="fa fa-check"></span> Continue!</a>
+             </div>
           </div>
-        </div>
-
-        <div id="take-photo" class="lightbox">
-            <div class="content">
-              <a href="/#/take-photo/close" class="close">X</a>
-
-              <div class="how">
-                <h3>
-                  <span></span>
-
-                  <strong>Make you best</br>LG Smile</strong>
-                </h3>
-
-                <p>Wink and smile! Help children in need get a tech lab by LG and techno.</p>
-
-                <a href="/#/take-photo/camera" class="take"><span class="fa fa-camera"></span> Take Photo</a>
-              </div>
-
-              <div class="thumb"></div>
-            </div>
-        </div>
-
-        <div id="pc-photo" class="lightbox">
         </div>
       </section>
 
