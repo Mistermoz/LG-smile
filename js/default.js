@@ -1,18 +1,38 @@
 $(function () {
-	$('a[href="#video"]').click(function () {
+	$('a[href="#video"]').click(function (e) {
 			$('#video').addClass('enabled');
+
+			e.preventDefault();
 	});
 
-	$('a[href="/#/video/close"]').click(function () {
+	$('a[href="/#/video/close"]').click(function (e) {
 			$('#video').removeClass('enabled');
+
+			e.preventDefault();
 	});
 
-	$('a[href="#techo"]').click(function () {
+	$('a[href="#techo"]').click(function (e) {
 			$('#techo').addClass('enabled');
+
+			e.preventDefault();
 	});
 
-	$('a[href="/#/techo/close"]').click(function () {
+	$('a[href="/#/techo/close"]').click(function (e) {
 			$('#techo').removeClass('enabled');
+
+			e.preventDefault();
+	});
+
+	$('a[href="/#/create/webcamera"]').click(function (e) {
+			$('#take-photo').addClass('enabled');
+
+			e.preventDefault();
+	});
+
+	$('a[href="/#/take-photo/close"]').click(function (e) {
+			$('#take-photo').removeClass('enabled');
+
+			e.preventDefault();
 	});
 
 
