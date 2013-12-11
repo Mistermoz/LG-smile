@@ -678,7 +678,7 @@ section.pages {
 		}
 	}
 
-	&.create, &.success {
+	&.create, &.success, &.card {
 		background: url(../img/pages-create-bg.png) 0 0 no-repeat;
 		height: 1%;
 		overflow: hidden;
@@ -936,6 +936,247 @@ section.pages {
 						color: @color;
 						font-size: 15px;
 						margin-bottom: 40px;
+					}
+				}
+			}
+		}
+	}
+
+	&.card {
+		div.content {
+			div.description {
+				margin-bottom: 2px;
+
+				h2 {
+					margin-bottom: 0px;
+
+					span {
+						margin-right: 5px;
+					}
+				}
+
+				p {
+					padding-left: 45px
+				}
+			}
+
+			div.show {
+				div.items{
+					height: 1%;
+					margin-bottom: 10px;
+					overflow: hidden;
+					padding-left: 40px;
+
+					div.item {
+						cursor: pointer;
+						float: left;
+						margin-right: 5px;
+						position: relative;
+
+						img {
+							height: 56px;
+							margin: 5px;
+							width: 56px;
+							z-index: 0;
+						}
+
+						span {
+							bottom: 25px;
+							left: 15px;
+							position: absolute;
+							z-index: 1;
+						}
+
+						p {
+							color: #777777;
+							font-size: 10px;
+							text-align: center;
+						}
+
+						&:nth-child(4n + 4) {
+							margin-right: 0px;
+						}
+
+						&:nth-child(n + 4) {
+							margin-bottom: 5px;
+						}
+
+						&.enabled {
+							img {
+								border: 5px solid @color;
+								margin: 0px;
+							}
+						}
+					}
+				}
+
+				div.buttons {
+					text-align: center;
+					padding-left: 35px;
+
+					a {
+						border-radius: 5px;
+						color: #fff;
+						display: inline-block;
+						padding: 5px 15px;
+						text-align: center;
+						text-decoration: none;
+						transition: opacity 250ms;
+
+						&.again {
+							background: #a7a7a7;
+						}
+
+						&.accept {
+							background: @color;
+						}
+
+						span {
+							color: #fff;
+							margin-right: 5px;
+						}
+
+						&:nth-of-type(1) {
+							span {
+								font-weight: 700;
+							}
+						}
+
+						&:hover {
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.preview {
+		background: url(../img/pages-create-bg.png) 0 0 no-repeat;
+		height: 1%;
+		overflow: hidden;
+		padding: 10px 50px 15px 250px;
+		position: relative;
+
+		h1 {
+			background: url(../img/pages-create-h1.png) 0 0 no-repeat;
+			left: 10px;
+			height: 134px;
+			position: absolute;
+			top: 0px;
+			text-indent: -9999px;
+			width: 169px;
+			z-index: 2;
+		}
+
+		div.content {
+			width: 475px;
+
+			div.elements {
+				margin-bottom: 10px;
+
+				div.element-content {
+					height: 251px;
+					position: relative;
+					overflow: hidden;
+
+					img {
+						&.card-bg {
+							left: 0px;
+							position: absolute;
+							top: 0px;
+							z-index: 0;
+						}
+
+						&.logo {
+						  left: 7px;
+							position: absolute;
+							top: -7px;
+							width: 103px;
+							z-index: 2;
+						}
+
+						&.photo-smile{
+							border: 5px solid #fff;
+							box-shadow: 1px 2px #ccc;
+							left: 50px;
+							position: absolute;
+							top: 60px;
+							width: 139px;
+							z-index: 1;
+						}
+					}
+				}
+
+				div.element-footer {
+					background: #fff;
+					height: 1%;
+					overflow: hidden;
+					padding: 9px 10px 5px 25px;
+
+					img {
+						&.lg {
+							float: left;
+							margin-right: 60px;
+							width: 59px;
+						}
+
+						&.techo{
+							float: right;
+							margin-top:5px;
+							width: 55px;
+						}
+					}
+
+					p {
+						color: @color;
+						float: left;
+						font-size: 12px;
+						font-weight: 300;
+						line-height: 30px;
+						text-align: center;
+					}
+				}
+			}
+
+			div.buttons {
+				text-align: center;
+				padding-left: 35px;
+
+				a {
+					border-radius: 5px;
+					color: #fff;
+					display: inline-block;
+					font-weight: 400;
+					padding: 7px 0px;
+					text-align: center;
+					text-decoration: none;
+					transition: opacity 250ms;
+					width: 100px;
+
+					&.again {
+						background: #a7a7a7;
+						color: #838383;
+						margin-right: 20px;
+					}
+
+					&.accept {
+						background: #c61f56;
+					}
+
+					span {
+						color: #fff;
+						margin-right: 5px;
+					}
+
+					&:nth-of-type(1) {
+						span {
+							font-weight: 700;
+						}
+					}
+
+					&:hover {
+						opacity: 0.7;
 					}
 				}
 			}
