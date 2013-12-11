@@ -38,6 +38,15 @@ $(function () {
 			e.preventDefault();
 	});
 
+	$('.card .content .show').find('.item').click(function (e) {
+			$('.item').removeClass('enabled');
+			$(this).addClass('enabled');
+			$('#card-choosen').val($(this).find('img').attr('src'));
+
+
+			e.preventDefault();
+	});
+
 
 	/**** Slider Techo*******/
 
