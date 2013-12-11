@@ -31,7 +31,7 @@
 
         <div class="content">
           <div class="description">
-            <h2><span>2</span> Create your smile</h2>
+            <h2><span>1</span> Create your smile</h2>
 
             <p>
               A nice smile with a complicit wink. A contagious smile makes others want to smaile. Take a pic with your best LG Smile and pread it to help children in need from your country.
@@ -46,7 +46,7 @@
 
                <a href="create.php" class="again"><span>X</span> Do it again</a>
 
-               <a href="choose.php" class="accept"><span class="fa fa-check"></span> Continue!</a>
+               <a href="card.php" class="accept"><span class="fa fa-check"></span> Continue!</a>
              </div>
           </div>
         </div>
