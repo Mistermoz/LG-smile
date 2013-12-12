@@ -36,7 +36,7 @@
 
               <img src="img/pages-create-take-photo-thumb.png" alt="" Class="photo-smile">
 
-              <textarea name="message" id="message" cols="19"></textarea>
+              <textarea name="message" id="message" cols="23" maxlength="135"></textarea>
 
               <p>If you want, you can edit and write a personal message in the card.</p>
             </div>
