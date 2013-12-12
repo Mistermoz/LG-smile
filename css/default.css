@@ -884,6 +884,7 @@ section.pages.card div.content div.show div.items div.item img {
   z-index: 0;
 }
 section.pages.card div.content div.show div.items div.item span {
+  display: none;
   bottom: 25px;
   left: 15px;
   position: absolute;
@@ -900,9 +901,12 @@ section.pages.card div.content div.show div.items div.item:nth-child(4n + 4) {
 section.pages.card div.content div.show div.items div.item:nth-child(n + 4) {
   margin-bottom: 5px;
 }
-section.pages.card div.content div.show div.items div.item.enabled img {
+section.pages.card div.content div.show div.items div.item:hover img {
   border: 5px solid #aa2455;
   margin: 0px;
+}
+section.pages.card div.content div.show div.items div.item.enabled span {
+  display: block;
 }
 section.pages.card div.content div.show div.buttons {
   text-align: center;

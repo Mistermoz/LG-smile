@@ -981,6 +981,7 @@ section.pages {
 						}
 
 						span {
+							display: none;
 							bottom: 25px;
 							left: 15px;
 							position: absolute;
@@ -1001,10 +1002,16 @@ section.pages {
 							margin-bottom: 5px;
 						}
 
-						&.enabled {
+						&:hover {
 							img {
 								border: 5px solid @color;
 								margin: 0px;
+							}
+						}
+
+						&.enabled {
+							span {
+								display: block;
 							}
 						}
 					}
