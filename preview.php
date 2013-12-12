@@ -35,6 +35,10 @@
               <img src="img/pages-preview-content-card-bg.png" alt="" class="card-bg">
 
               <img src="img/pages-create-take-photo-thumb.png" alt="" Class="photo-smile">
+
+              <textarea name="message" id="message" cols="19"></textarea>
+
+              <p>If you want, you can edit and write a personal message in the card.</p>
             </div>
 
             <div class="element-footer">
