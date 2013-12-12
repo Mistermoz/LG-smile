@@ -584,7 +584,8 @@ section.pages.gallery div.items div.item:nth-of-type(12) {
 }
 section.pages.create,
 section.pages.success,
-section.pages.card {
+section.pages.card,
+section.pages.share {
   background: url(../img/pages-create-bg.png) 0 0 no-repeat;
   height: 1%;
   overflow: hidden;
@@ -592,7 +593,8 @@ section.pages.card {
 }
 section.pages.create h1,
 section.pages.success h1,
-section.pages.card h1 {
+section.pages.card h1,
+section.pages.share h1 {
   background: url(../img/pages-create-h1.png) 0 0 no-repeat;
   left: 10px;
   height: 134px;
@@ -604,7 +606,8 @@ section.pages.card h1 {
 }
 section.pages.create > div.thumb,
 section.pages.success > div.thumb,
-section.pages.card > div.thumb {
+section.pages.card > div.thumb,
+section.pages.share > div.thumb {
   background: url(../img/pages-create-thumb-bg.png) right top no-repeat;
   height: 355px;
   float: left;
@@ -614,26 +617,30 @@ section.pages.card > div.thumb {
 }
 section.pages.create > div.content,
 section.pages.success > div.content,
-section.pages.card > div.content {
+section.pages.card > div.content,
+section.pages.share > div.content {
   float: left;
   padding: 65px 45px 40px 20px;
   width: 323px;
 }
 section.pages.create > div.content div.description,
 section.pages.success > div.content div.description,
-section.pages.card > div.content div.description {
+section.pages.card > div.content div.description,
+section.pages.share > div.content div.description {
   margin-bottom: 20px;
 }
 section.pages.create > div.content div.description h2,
 section.pages.success > div.content div.description h2,
-section.pages.card > div.content div.description h2 {
+section.pages.card > div.content div.description h2,
+section.pages.share > div.content div.description h2 {
   color: #aa2455;
   font-size: 20px;
   margin-bottom: 20px;
 }
 section.pages.create > div.content div.description h2 span,
 section.pages.success > div.content div.description h2 span,
-section.pages.card > div.content div.description h2 span {
+section.pages.card > div.content div.description h2 span,
+section.pages.share > div.content div.description h2 span {
   background: #aa2455;
   border-radius: 50%;
   color: #fff;
@@ -647,14 +654,16 @@ section.pages.card > div.content div.description h2 span {
 }
 section.pages.create > div.content div.description p,
 section.pages.success > div.content div.description p,
-section.pages.card > div.content div.description p {
+section.pages.card > div.content div.description p,
+section.pages.share > div.content div.description p {
   color: #777777;
   font-size: 11px;
   line-height: 15px;
 }
 section.pages.create > div.content div.choice a,
 section.pages.success > div.content div.choice a,
-section.pages.card > div.content div.choice a {
+section.pages.card > div.content div.choice a,
+section.pages.share > div.content div.choice a {
   display: inline-block;
   float: left;
   height: 86px;
@@ -664,25 +673,29 @@ section.pages.card > div.content div.choice a {
 }
 section.pages.create > div.content div.choice a.webcamera,
 section.pages.success > div.content div.choice a.webcamera,
-section.pages.card > div.content div.choice a.webcamera {
+section.pages.card > div.content div.choice a.webcamera,
+section.pages.share > div.content div.choice a.webcamera {
   background: url(../img/pages-create-choice-webcamera.png) 0 0 no-repeat;
   margin-right: 10px;
 }
 section.pages.create > div.content div.choice a:hover,
 section.pages.success > div.content div.choice a:hover,
-section.pages.card > div.content div.choice a:hover {
+section.pages.card > div.content div.choice a:hover,
+section.pages.share > div.content div.choice a:hover {
   opacity: 0.7;
 }
 section.pages.create > div.content div.choice h3,
 section.pages.success > div.content div.choice h3,
-section.pages.card > div.content div.choice h3 {
+section.pages.card > div.content div.choice h3,
+section.pages.share > div.content div.choice h3 {
   color: #4e4e4e;
   font-size: 20px;
   margin-bottom: 15px;
 }
 section.pages.create > div.content div.choice div.pc,
 section.pages.success > div.content div.choice div.pc,
-section.pages.card > div.content div.choice div.pc {
+section.pages.card > div.content div.choice div.pc,
+section.pages.share > div.content div.choice div.pc {
   background: url(../img/pages-create-choice-pc.png) 0 0 no-repeat;
   float: left;
   height: 86px;
@@ -693,7 +706,8 @@ section.pages.card > div.content div.choice div.pc {
 }
 section.pages.create > div.content div.choice div.pc input.upload,
 section.pages.success > div.content div.choice div.pc input.upload,
-section.pages.card > div.content div.choice div.pc input.upload {
+section.pages.card > div.content div.choice div.pc input.upload,
+section.pages.share > div.content div.choice div.pc input.upload {
   cursor: pointer;
   filter: alpha(opacity=0);
   height: 86px;
@@ -707,12 +721,14 @@ section.pages.card > div.content div.choice div.pc input.upload {
 }
 section.pages.create > div.content div.choice div.pc:hover,
 section.pages.success > div.content div.choice div.pc:hover,
-section.pages.card > div.content div.choice div.pc:hover {
+section.pages.card > div.content div.choice div.pc:hover,
+section.pages.share > div.content div.choice div.pc:hover {
   opacity: 0.7;
 }
 section.pages.create div#take-photo,
 section.pages.success div#take-photo,
-section.pages.card div#take-photo {
+section.pages.card div#take-photo,
+section.pages.share div#take-photo {
   padding: 35px 153px;
   opacity: 0;
   transition: opacity 300ms;
@@ -721,7 +737,8 @@ section.pages.card div#take-photo {
 }
 section.pages.create div#take-photo div.content,
 section.pages.success div#take-photo div.content,
-section.pages.card div#take-photo div.content {
+section.pages.card div#take-photo div.content,
+section.pages.share div#take-photo div.content {
   border: 8px solid #232323;
   border-radius: 5px;
   background: #fff;
@@ -732,13 +749,15 @@ section.pages.card div#take-photo div.content {
 }
 section.pages.create div#take-photo div.content div.how,
 section.pages.success div#take-photo div.content div.how,
-section.pages.card div#take-photo div.content div.how {
+section.pages.card div#take-photo div.content div.how,
+section.pages.share div#take-photo div.content div.how {
   float: left;
   width: 161px;
 }
 section.pages.create div#take-photo div.content div.how a,
 section.pages.success div#take-photo div.content div.how a,
-section.pages.card div#take-photo div.content div.how a {
+section.pages.card div#take-photo div.content div.how a,
+section.pages.share div#take-photo div.content div.how a {
   background: #aa2455;
   border-radius: 5px;
   color: #fff;
@@ -749,19 +768,22 @@ section.pages.card div#take-photo div.content div.how a {
 }
 section.pages.create div#take-photo div.content div.how a:hover,
 section.pages.success div#take-photo div.content div.how a:hover,
-section.pages.card div#take-photo div.content div.how a:hover {
+section.pages.card div#take-photo div.content div.how a:hover,
+section.pages.share div#take-photo div.content div.how a:hover {
   opacity: 0.7;
 }
 section.pages.create div#take-photo div.content div.how h3,
 section.pages.success div#take-photo div.content div.how h3,
-section.pages.card div#take-photo div.content div.how h3 {
+section.pages.card div#take-photo div.content div.how h3,
+section.pages.share div#take-photo div.content div.how h3 {
   color: #c61f56;
   font-size: 17px;
   margin-bottom: 50px;
 }
 section.pages.create div#take-photo div.content div.how h3 span,
 section.pages.success div#take-photo div.content div.how h3 span,
-section.pages.card div#take-photo div.content div.how h3 span {
+section.pages.card div#take-photo div.content div.how h3 span,
+section.pages.share div#take-photo div.content div.how h3 span {
   background: url(../img/pages-create-take-photo-h2-span.png) 0 0 no-repeat;
   display: inline-block;
   float: left;
@@ -772,19 +794,22 @@ section.pages.card div#take-photo div.content div.how h3 span {
 }
 section.pages.create div#take-photo div.content div.how h3 strong,
 section.pages.success div#take-photo div.content div.how h3 strong,
-section.pages.card div#take-photo div.content div.how h3 strong {
+section.pages.card div#take-photo div.content div.how h3 strong,
+section.pages.share div#take-photo div.content div.how h3 strong {
   vertical-align: top;
 }
 section.pages.create div#take-photo div.content div.how p,
 section.pages.success div#take-photo div.content div.how p,
-section.pages.card div#take-photo div.content div.how p {
+section.pages.card div#take-photo div.content div.how p,
+section.pages.share div#take-photo div.content div.how p {
   color: #767676;
   font-size: 11px;
   margin-bottom: 60px;
 }
 section.pages.create div#take-photo div.content div.thumb,
 section.pages.success div#take-photo div.content div.thumb,
-section.pages.card div#take-photo div.content div.thumb {
+section.pages.card div#take-photo div.content div.thumb,
+section.pages.share div#take-photo div.content div.thumb {
   background: url(../img/pages-create-take-photo-thumb.png) 0 0 no-repeat;
   float: right;
   height: 196px;
@@ -792,13 +817,15 @@ section.pages.card div#take-photo div.content div.thumb {
 }
 section.pages.create div#take-photo.enabled,
 section.pages.success div#take-photo.enabled,
-section.pages.card div#take-photo.enabled {
+section.pages.card div#take-photo.enabled,
+section.pages.share div#take-photo.enabled {
   opacity: 1;
   z-index: 10;
 }
 section.pages.create div#pc-photo,
 section.pages.success div#pc-photo,
-section.pages.card div#pc-photo {
+section.pages.card div#pc-photo,
+section.pages.share div#pc-photo {
   height: 357px;
   opacity: 0;
   transition: opacity 300ms;
@@ -807,7 +834,8 @@ section.pages.card div#pc-photo {
 }
 section.pages.create div#pc-photo.enabled,
 section.pages.success div#pc-photo.enabled,
-section.pages.card div#pc-photo.enabled {
+section.pages.card div#pc-photo.enabled,
+section.pages.share div#pc-photo.enabled {
   opacity: 1;
   z-index: 10;
 }
@@ -1063,4 +1091,61 @@ section.pages.preview div.content div.buttons a:nth-of-type(1) span {
 }
 section.pages.preview div.content div.buttons a:hover {
   opacity: 0.7;
+}
+section.pages.share > div.content {
+  float: left;
+  padding: 35px 65px 0px 20px;
+  width: 303px;
+}
+section.pages.share > div.content div.description {
+  margin-bottom: 7px;
+}
+section.pages.share > div.content div.description h2 {
+  color: #aa2455;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+section.pages.share > div.content div.description p {
+  color: #777777;
+  font-size: 11px;
+  line-height: 15px;
+}
+section.pages.share > div.content div.description p strong {
+  color: #aa2455;
+}
+section.pages.share > div.content div.thumbnail {
+  margin-bottom: 20px;
+}
+section.pages.share > div.content div.thumbnail img {
+  width: 252px;
+}
+section.pages.share > div.content div.socials {
+  padding-left: 120px;
+}
+section.pages.share > div.content div.socials a {
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  transition: opacity 250ms;
+  width: 28px;
+}
+section.pages.share > div.content div.socials a.facebook {
+  background: #475995;
+  margin-right: 2px;
+}
+section.pages.share > div.content div.socials a.twitter {
+  background: #80c4f3;
+}
+section.pages.share > div.content div.socials a:hover {
+  opacity: 0.7;
+}
+section.pages.share > div.content div.socials p {
+  display: inline;
+  color: #777777;
+  font-size: 11px;
+  font-weight: 300;
+  margin-right: 5px;
 }
