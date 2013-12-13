@@ -587,7 +587,7 @@ section.pages.gallery div.items div.item:nth-of-type(12) {
   left: 248px;
 }
 section.pages.gallery div#card-preview {
-  padding: 40px 20px;
+  padding: 10px 20px 40px;
   opacity: 0;
   width: 751px;
   transition: opacity 300ms;
@@ -595,7 +595,7 @@ section.pages.gallery div#card-preview {
 }
 section.pages.gallery div#card-preview a.close {
   right: 144px;
-  top: 55px;
+  top: 28px;
 }
 section.pages.gallery div#card-preview > p {
   color: #fff;
@@ -608,6 +608,7 @@ section.pages.gallery div#card-preview div.content {
   border-radius: 5px;
   height: 292px;
   margin: 0 auto;
+  margin-bottom: 5px;
   overflow: hidden;
   position: relative;
   width: 471px;
@@ -645,6 +646,75 @@ section.pages.gallery div#card-preview div.content div.heart span {
   line-height: 96px;
   text-align: center;
   width: 86px;
+}
+section.pages.gallery div#card-preview div.controls {
+  position: absolute;
+  top: 35%;
+  z-index: 18;
+}
+section.pages.gallery div#card-preview div.controls a {
+  color: #fff;
+  display: block;
+  font-size: 65px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  width: 35px;
+}
+section.pages.gallery div#card-preview div.controls.prev {
+  left: 20px;
+}
+section.pages.gallery div#card-preview div.controls.next {
+  right: 20px;
+}
+section.pages.gallery div#card-preview div.socials {
+  padding: 0px 165px;
+}
+section.pages.gallery div#card-preview div.socials div.followers {
+  float: left;
+  padding-top: 5px;
+}
+section.pages.gallery div#card-preview div.socials div.followers a {
+  display: inline-block;
+  text-indent: -9999px;
+}
+section.pages.gallery div#card-preview div.socials div.followers a.facebook {
+  background: url(../img/pages-socials-facebook.png) 0 0 no-repeat;
+  height: 20px;
+  margin-right: 10px;
+  width: 89px;
+}
+section.pages.gallery div#card-preview div.socials div.followers a.twitter {
+  background: url(../img/pages-socials-twitter.png) 0 0 no-repeat;
+  height: 20px;
+  width: 81px;
+}
+section.pages.gallery div#card-preview div.socials div.share {
+  float: right;
+}
+section.pages.gallery div#card-preview div.socials div.share a {
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  transition: opacity 250ms;
+  width: 25px;
+}
+section.pages.gallery div#card-preview div.socials div.share a.facebook {
+  background: #475995;
+  margin-right: 2px;
+}
+section.pages.gallery div#card-preview div.socials div.share a.twitter {
+  background: #80c4f3;
+}
+section.pages.gallery div#card-preview div.socials div.share a:hover {
+  opacity: 0.7;
+}
+section.pages.gallery div#card-preview div.socials div.share p {
+  color: #fff;
+  display: inline;
 }
 section.pages.gallery div#card-preview.enabled {
   opacity: 1;

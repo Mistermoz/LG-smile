@@ -159,12 +159,32 @@
 
             <a href="/#/card-preview/close" class="close">X</a>
 
+            <div class="controls prev"><a href="/#/prev"><span class="fa fa-angle-left"></span></a></div>
+
             <div class="content">
               <img class="logo" src="img/pages-create-h1.png" alt="">
 
               <div class="heart"><span class="fa fa-heart"></span></div>
 
               <img class="card-bg" src="img/pages-share-show-thumb.png" alt="">
+            </div>
+
+            <div class="controls next"><a href="/#/next"><span class="fa fa-angle-right"></span></a></div>
+
+            <div class="socials">
+              <div class="followers">
+                <a href="/#/likes" class="facebook">Facebook</a>
+
+                <a href="/#/followers" class="twitter">Twitter</a>
+              </div>
+
+              <div class="share">
+                <p>Share by: </p>
+
+                <a href="/#/facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+
+                <a href="/#/twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+              </div>
             </div>
           </div>
       </section>
