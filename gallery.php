@@ -153,6 +153,20 @@
               </a>
             </div>
           </div>
+
+          <div id="card-preview" class="lightbox">
+            <p class="name">Claudia Alvarez</p>
+
+            <a href="/#/card-preview/close" class="close">X</a>
+
+            <div class="content">
+              <img class="logo" src="img/pages-create-h1.png" alt="">
+
+              <div class="heart"><span class="fa fa-heart"></span></div>
+
+              <img class="card-bg" src="img/pages-share-show-thumb.png" alt="">
+            </div>
+          </div>
       </section>
 
       <footer>LG</footer>

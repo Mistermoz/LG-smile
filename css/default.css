@@ -452,7 +452,9 @@ section.pages.home div#techo.enabled {
   z-index: 1;
 }
 section.pages.gallery {
-  padding: 25px 24px;
+  height: 1%;
+  overflow: hidden;
+  position: relative;
 }
 section.pages.gallery div.top {
   height: 1%;
@@ -479,8 +481,10 @@ section.pages.gallery div.top h2 {
 section.pages.gallery div.items {
   clear: both;
   height: 1%;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
+  width: 744px;
 }
 section.pages.gallery div.items div.item {
   float: left;
@@ -581,6 +585,70 @@ section.pages.gallery div.items div.item:nth-of-type(11) {
 }
 section.pages.gallery div.items div.item:nth-of-type(12) {
   left: 248px;
+}
+section.pages.gallery div#card-preview {
+  padding: 40px 20px;
+  opacity: 0;
+  width: 751px;
+  transition: opacity 300ms;
+  z-index: -1;
+}
+section.pages.gallery div#card-preview a.close {
+  right: 144px;
+  top: 55px;
+}
+section.pages.gallery div#card-preview > p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+section.pages.gallery div#card-preview div.content {
+  border: 5px solid #292929;
+  border-radius: 5px;
+  height: 292px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 471px;
+}
+section.pages.gallery div#card-preview div.content img.card-bg {
+  height: 297px;
+  left: -1px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: -1px;
+  width: 475px;
+  z-index: 16;
+}
+section.pages.gallery div#card-preview div.content img.logo {
+  left: 7px;
+  position: absolute;
+  top: -7px;
+  width: 103px;
+  z-index: 2;
+}
+section.pages.gallery div#card-preview div.content div.heart {
+  bottom: 50px;
+  left: 20px;
+  position: absolute;
+  z-index: 17;
+}
+section.pages.gallery div#card-preview div.content div.heart span {
+  background: url(../img/pages-gallery-item-span.png) 0 0 repeat;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 50px;
+  height: 86px;
+  line-height: 96px;
+  text-align: center;
+  width: 86px;
+}
+section.pages.gallery div#card-preview.enabled {
+  opacity: 1;
+  z-index: 15;
 }
 section.pages.create,
 section.pages.success,

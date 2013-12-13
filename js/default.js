@@ -48,6 +48,20 @@ $(function () {
 	});
 
 
+	/********* Gallery preview ************/
+	$('.gallery .items .item').find('a').click(function (e) {
+			$('#card-preview').addClass('enabled');
+
+			e.preventDefault();
+	});
+
+	$('a[href="/#/card-preview/close"]').click(function (e) {
+			$('#card-preview').removeClass('enabled');
+
+			e.preventDefault();
+	});
+
+
 	/**** Slider Techo*******/
 
 	var actualItem = 0;
