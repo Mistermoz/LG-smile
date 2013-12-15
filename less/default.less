@@ -19,6 +19,7 @@ body, input, select, textarea {
 
 #pag{
 	margin: 0 auto;
+	position: relative;
 	width: 791px;
 }
 
@@ -1447,5 +1448,24 @@ section.pages {
 				}
 			}
 		}
+	}
+}
+
+div.fanpage {
+	background: url(../img/pages-lightbox-bg.png) 0 0 repeat;
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	z-index: 15;
+
+	div.bg {
+		background: url(../img/pages-home-fanpage.png) 190px 40px no-repeat;
+		height: 527px;
+		width: 791px;
+	}
+
+	&.enable {
+		display: block;
 	}
 }

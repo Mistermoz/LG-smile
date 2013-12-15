@@ -6,3 +6,9 @@ html.no-opacity section.pages.home div#video.enabled,
 html.no-opacity section.pages.home div#techo.enabled {
   display: block;
 }
+html.no-opacity section.pages.gallery div#card-preview {
+  display: none;
+}
+html.no-opacity section.pages.gallery div#card-preview.enabled {
+  display: block;
+}

@@ -17,6 +17,7 @@ textarea {
 }
 #pag {
   margin: 0 auto;
+  position: relative;
   width: 791px;
 }
 header {
@@ -1286,4 +1287,20 @@ section.pages.share > div.content div.socials p {
   font-size: 11px;
   font-weight: 300;
   margin-right: 5px;
+}
+div.fanpage {
+  background: url(../img/pages-lightbox-bg.png) 0 0 repeat;
+  display: none;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 15;
+}
+div.fanpage div.bg {
+  background: url(../img/pages-home-fanpage.png) 190px 40px no-repeat;
+  height: 527px;
+  width: 791px;
+}
+div.fanpage.enable {
+  display: block;
 }
